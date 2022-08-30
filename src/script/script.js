@@ -41,9 +41,9 @@ var bannerImages = [];
 var time = null;
 
 //Img list
-bannerImages[0] = '../../src/img/banner1.jpg';
-bannerImages[1] = '../../src/img/banner2.jpg';
-bannerImages[2] = '../../src/img/banner3.jpg';
+bannerImages[0] = './src/img/banner1.jpg';
+bannerImages[1] = './src/img/banner2.jpg';
+bannerImages[2] = './src/img/banner3.jpg';
 
 document.banners.src = bannerImages[0];
 
@@ -92,9 +92,9 @@ function changePhotoGo(){
 
 var sotreIdx = 0;
 var shopeeStoreImages = [];
-shopeeStoreImages[0] = '../../src/img/shopeeStoreImg1.jpg'
-shopeeStoreImages[1] = '../../src/img/shopeeStoreImg2.jpg'
-shopeeStoreImages[2] = '../../src/img/shopeeStoreImg3.jpg'
+shopeeStoreImages[0] = './src/img/shopeeStoreImg1.jpg';
+shopeeStoreImages[1] = './src/img/shopeeStoreImg2.jpg'
+shopeeStoreImages[2] = './src/img/shopeeStoreImg3.jpg'
 
 document.shopeeStoreImg.src = shopeeStoreImages[0];
 
