@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/utilities.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://kit.fontawesome.com/b6edf48213.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="fix-logo">
+        <img src="./src/img/fixlogo.jpg" alt="">
+    </div>
+    <nav>
+        <img id='qrcode' src="./src/img/qrcode.jpg" alt="" class="qrcode-remove">
+        <ul class="navbar">
+            <li><a href="#">賣家中心</a></li>
+            <li id="download"><a href="#">下載</a></li>
+            <li><a href="#">追蹤我們</a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook mr-5"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-instagram mr-5"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-line mr-5"></i></a></li>
+        </ul>
+        <div class="info-card" id ='card'>
+            <div class="info-content">
+                <img src="./src/img/infoCardimg.jpg" alt="">
+                <p>要看訊息通知，請先登入</p>
+            </div>
+            <div class="btn">
+                <button class="register">註冊</button>
+                <button class="login">登入</button>
+            </div>
+        </div>
+        <ul class="navbar">
+            <li id="info"><a href="#" ><i class="fa-solid fa-bell mr-5"></i>通知導覽</a></li>
+            <li><a href="#"><i class="fa-solid fa-circle-question mr-5"></i>幫助中心</a></li>
+            <li><a href="#"><i class="fa-solid fa-earth-africa mr-5"></i>繁體中文</a></li>
+            <li><a href="#">註冊 |</a></li>
+            <li><a href="#">登入</a></li>
+        </ul>
+    </nav>
+    <header class="nav-with-search-bar">
+        <img src="./src/img/logo.jpg" alt="" class="mr-10">
+        <div class="form mt-15">
+            <form action="">
+                <input type="text" placeholder="立即領6張全站$0起免運券，再抽百萬汽車禮包▸" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </header>
+    <!-- banner -->
+    <section class="banner pt-20">
+        <div class="left-banner mr-10">
+            <img name='banners' width="815" height="250">
+            <i class="fa-solid fa-chevron-left" id="left-arrow"></i>
+            <i class="fa-solid fa-angle-right" id="right-arrow"></i>
+        </div>
+        <div class="right-banner">
+            <img src="./src/img/rightbanner1.jpg" class='mb-5' alt="" >
+            <img src="./src/img/rightbanner2.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- list-below-banner -->
+    <section class="list-below-banner mt-20">
+        <div class="list-item">
+            <div class="list-pic mt-10">
+                <img src="./src/img/list1.jpg" alt="">
+            </div>
+            <p>免運蝦皮直送</p>
+        </div>
+        <div class="list-item">
+            <div class="list-pic mt-10">
+                <img src="./src/img/list2.jpg" alt="">
+            </div>
+            <p>蝦皮超市</p>
+        </div>
+        <div class="list-item">
+            <div class="list-pic mt-10">
+                <img src="./src/img/list3.jpg" alt="">
+            </div>
+            <p>領全站85折券</p>
+        </div>
+        <div class="list-item">
+            <div class="list-pic mt-10">
+                <img src="./src/img/list4.jpg" alt="">
+            </div>
+            <p>蝦皮3C家電</p>
+        </div>
+        <div class="list-item">
+            <div class="list-pic mt-10">
+                <img src="./src/img/list5.jpg" alt="">
+            </div>
+            <p>蝦皮商城</p>
+        </div>
+        <div class="list-item">
+            <div class="list-pic mt-10">
+                <img src="./src/img/list6.jpg" alt="">
+            </div>
+            <p>全站$0起免運</p>
+        </div>
+        <div class="list-item">
+            <div class="list-pic mt-10">
+                <img src="./src/img/list7.jpg" alt="">
+            </div>
+            <p>蝦皮團購</p>
+        </div>
+        <div class="list-item">
+            <div class="list-pic mt-10">
+                <img src="./src/img/list8.jpg" alt="">
+            </div>
+            <p>蝦幣10倍送</p>
+        </div>
+        <div class="list-item">
+            <div class="list-pic mt-10">
+                <img src="./src/img/list9.jpg" alt="">
+            </div>
+            <p>蝦皮超便宜</p>
+        </div>
+        <div class="list-item">
+            <div class="list-pic mt-10">
+                <img src="./src/img/list10.jpg" alt="">
+            </div>
+            <p>最強活動合集</p>
+        </div>
+    </section>
+
+    <div class="container mb-90">
+        <!-- full banner -->
+        <section class="full-banner">
+            <img src="./src/img/full-banner.jpg" alt="">
+        </section>
+
+        <!-- catogory -->
+        <section class="catogory">
+            <p>分類</p>
+            <div class="kinds">
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard.jpg" alt="">
+                    <p>女生衣著</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard1.jpg" alt="">
+                    <p>男生衣著</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard2.jpg" alt="">
+                    <p>健身\運動</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard3.jpg" alt="">
+                    <p>男女鞋</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard4.jpg" alt="">
+                    <p>女生配件\黃金</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard5.jpg" alt="">
+                    <p>美妝保健</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard6.jpg" alt="">
+                    <p>嬰幼童與母親</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard7.jpg" alt="">
+                    <p>女生包包\精品</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard8.jpg" alt="">
+                    <p>男生包包\配件</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard9.jpg" alt="">
+                    <p>戶外\旅行</p>
+                </div>
+            </div>
+            <div class="kinds">
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard10.jpg" alt="">
+                    <p>書籍及雜誌期刊</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard11.jpg" alt="">
+                    <p>居家生活</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard12.jpg" alt="">
+                    <p>美食伴手禮</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard13.jpg" alt="">
+                    <p>汽機車零件百貨</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard14.jpg" alt="">
+                    <p>遊戲王</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard15.jpg" alt="">
+                    <p>娛樂、收藏</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard16.jpg" alt="">
+                    <p>寵物</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard17.jpg" alt="">
+                    <p>手機與平板</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard18.jpg" alt="">
+                    <p>3C與筆電</p>
+                </div>
+                <div class="kinds-card">
+                    <img src="./src/img/kindsCard19.jpg" alt="">
+                    <p>家電影音</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- on sale -->
+        <section class="on-sale mt-15">
+            <div class="top-onSale">
+                <p class="limited-time ml-10">限時特賣</p>
+                <p class="see-all mr-10">查看全部 > </p>
+            </div>
+            <div class="onSale-item">
+                <div class="onSale-item-card">
+                    <img src="./src/img/onsaleCard.jpg" alt="">
+                    <p>$2699</p>
+                    <p class="sold">已售出4件</p>
+                </div>
+                <div class="onSale-item-card">
+                    <img src="./src/img/onsaleCard.jpg" alt="">
+                    <p>$2699</p>
+                    <p class="sold">已售出4件</p>
+                </div>
+                <div class="onSale-item-card">
+                    <img src="./src/img/onsaleCard.jpg" alt="">
+                    <p>$2699</p>
+                    <p class="sold">已售出4件</p>
+                </div>
+                <div class="onSale-item-card">
+                    <img src="./src/img/onsaleCard.jpg" alt="">
+                    <p>$2699</p>
+                    <p class="sold">已售出4件</p>
+                </div>
+                <div class="onSale-item-card">
+                    <img src="./src/img/onsaleCard.jpg" alt="">
+                    <p>$2699</p>
+                    <p class="sold">已售出4件</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- three-banners -->
+        <section class="three-banners pt-15">
+            <img src="./src/img/threebanner1.jpg" alt="">
+            <img src="./src/img/threebanner2.jpg" alt="">
+            <img src="./src/img/threebanner3.jpg" alt="">
+        </section>
+
+        <!-- shopee store -->
+        <section class="shopee-store">
+            <div class="top-nav-shopee-store">
+                <p class="shop ml-5">蝦皮商城 |</p>
+                <p><i class="fa-solid fa-arrow-rotate-left"></i>15天鑑賞期</p>
+                <p><i class="fa-solid fa-truck-arrow-right"></i>蝦皮安心退</p>
+                <p><i class="fa-solid fa-circle-check"></i>正品保障</p>
+                <p class="all">查看全部<i class="fa-solid fa-circle-arrow-right ml-10"></i></p>
+            </div>
+            <div class="shopee-store-container">
+                <div class="shopee-store-img">
+                <img alt="" name="shopeeStoreImg" width="390px" height="462px">
+                </div>
+                <div class="shopee-store-items">
+                    <div class="shopee-store-items-row mb-10">
+                        <div class="shopee-store-item-card">
+                            <img src="./src/img/shopeeSotreItemCard1.jpg" alt="">
+                            <p>超品日券折$5,000</p>
+                        </div>
+                        <div class="shopee-store-item-card">
+                            <img src="./src/img/shopeeSotreItemCard1.jpg" alt="">
+                            <p>超品日券折$5,000</p>
+                        </div>
+                        <div class="shopee-store-item-card">
+                            <img src="./src/img/shopeeSotreItemCard1.jpg" alt="">
+                            <p>超品日券折$5,000</p>
+                        </div>
+                        <div class="shopee-store-item-card">
+                            <img src="./src/img/shopeeSotreItemCard1.jpg" alt="">
+                            <p>超品日券折$5,000</p>
+                        </div>
+                        <div class="shopee-store-item-card">
+                            <img src="./src/img/shopeeSotreItemCard1.jpg" alt="">
+                            <p>超品日券折$5,000</p>
+                        </div>
+                    </div>
+                <div class="shopee-store-items-row">
+                    <div class="shopee-store-item-card">
+                        <img src="./src/img/shopeeSotreItemCard1.jpg" alt="">
+                        <p>超品日券折$5,000</p>
+                    </div>
+                    <div class="shopee-store-item-card">
+                        <img src="./src/img/shopeeSotreItemCard1.jpg" alt="">
+                        <p>超品日券折$5,000</p>
+                    </div>
+                    <div class="shopee-store-item-card">
+                        <img src="./src/img/shopeeSotreItemCard1.jpg" alt="">
+                        <p>超品日券折$5,000</p>
+                    </div>
+                    <div class="shopee-store-item-card">
+                        <img src="./src/img/shopeeSotreItemCard1.jpg" alt="">
+                        <p>超品日券折$5,000</p>
+                    </div>
+                    <div class="shopee-store-item-card">
+                        <img src="./src/img/shopeeSotreItemCard1.jpg" alt="">
+                        <p>超品日券折$5,000</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- suggection -->
+        <section class="suggection">
+            <div class="top-suggection">
+                <p classs="new">每日新發現</p>
+                <p class="shopping-day">9.9超級購物節</p>
+            </div>
+            <div class="suggection-row">
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="suggection-row">
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="suggection-row">
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+                <div class="suggection-card">
+                    <img src="./src/img/suggectionCard1.jpg" alt="">
+                    <p>新款！快速出貨👍台灣🇹🇼現貨不用等！2022新款配件上架！
+                    DIY奶油膠手機殼可愛仿真食玩配件髮飾樹脂貼片</p>
+                    <div class="suggection-detail">
+                        <p>$100</p>
+                        <p class="sold-amount">已售出355</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="show-more">
+                <button>查看更多</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <!-- top footer -->
+        <section class="top-footer pt-25 pr-5 pl-5">
+            <div class="top-footer-content  mb-10">
+                <h2>花得更少買得更好，全新網路購物體驗</h2>
+                <p>蝦皮購物是台灣首屈一指的電商平台，多樣服
+                    務包括蝦皮商城、蝦皮超市、蝦皮團購等，
+                    更陸續設立蝦皮店到店，提供取貨新選擇，服
+                    務更升級！簡易操作介面、清楚的商品評價讓
+                    你輕鬆選好物。在蝦皮下單後，透過訂單詳情可以
+                    隨時進行包裹查詢，無需擔心收不到你所訂購的商
+                    品！蝦皮更承諾保障你的交易安全，提供多種安全可
+                    靠的付款方式，街口支付、等行動支付超方便！趕快到
+                    蝦皮購物使用多到不行的免運券，開啟全新的購物體驗！</p>
+            </div>
+            <div class="top-footer-content mb-10">
+                <h2>花得更少買得更好，全新網路購物體驗</h2>
+                <p>蝦皮購物是台灣首屈一指的電商平台，多樣服
+                    務包括蝦皮商城、蝦皮超市、蝦皮團購等，
+                    更陸續設立蝦皮店到店，提供取貨新選擇，服
+                    務更升級！簡易操作介面、清楚的商品評價讓
+                    你輕鬆選好物。在蝦皮下單後，透過訂單詳情可以
+                    隨時進行包裹查詢，無需擔心收不到你所訂購的商
+                    品！蝦皮更承諾保障你的交易安全，提供多種安全可
+                    靠的付款方式，街口支付、等行動支付超方便！趕快到
+                    蝦皮購物使用多到不行的免運券，開啟全新的購物體驗！</p>
+            </div>
+            <div class="top-footer-content ">
+                <h2>花得更少買得更好，全新網路購物體驗</h2>
+                <p>蝦皮購物是台灣首屈一指的電商平台，多樣服
+                    務包括蝦皮商城、蝦皮超市、蝦皮團購等，
+                    更陸續設立蝦皮店到店，提供取貨新選擇，服
+                    務更升級！簡易操作介面、清楚的商品評價讓
+                    你輕鬆選好物。在蝦皮下單後，透過訂單詳情可以
+                    隨時進行包裹查詢，無需擔心收不到你所訂購的商
+                    品！蝦皮更承諾保障你的交易安全，提供多種安全可
+                    靠的付款方式，街口支付、等行動支付超方便！趕快到
+                    蝦皮購物使用多到不行的免運券，開啟全新的購物體驗！</p>
+            </div>
+        </section>
+
+        <!-- mid footer -->
+        <section class="mid-footer">
+            <p>分類</p>
+            <div class="mid-footer-content">
+                <div class="mid-content-card">
+                    <h5>女生衣著</h5>
+                    <p>T恤
+                        |
+                    長褲
+                        |
+                    內睡衣
+                        |
+                    外套
+                        |
+                    其他
+                     |
+                     針織/毛衣
+                    |
+                     多件式套裝
+                      |
+                     大尺碼
+                      |
+                     小可愛/背心
+                      |
+                     帽T/大學T
+                      |
+                     泳裝/比基尼
+                      |
+                     休閒運動服飾
+                      |
+                     短褲
+                      |
+                     洋裝
+                      |
+                     裙子
+                      |
+                     上衣類
+                      |
+                    襯衫</p>
+                </div>
+                <div class="mid-content-card">
+                    <h5>女生衣著</h5>
+                    <p>T恤
+                        |
+                    長褲
+                        |
+                    內睡衣
+                        |
+                    外套
+                        |
+                    其他
+                     |
+                     針織/毛衣
+                    |
+                     多件式套裝
+                      |
+                     大尺碼
+                      |
+                     小可愛/背心
+                      |
+                     帽T/大學T
+                      |
+                     泳裝/比基尼
+                      |
+                     休閒運動服飾
+                      |
+                     短褲
+                      |
+                     洋裝
+                      |
+                     裙子
+                      |
+                     上衣類
+                      |
+                    襯衫</p>
+                </div>
+                <div class="mid-content-card">
+                    <h5>女生衣著</h5>
+                    <p>T恤
+                        |
+                    長褲
+                        |
+                    內睡衣
+                        |
+                    外套
+                        |
+                    其他
+                     |
+                     針織/毛衣
+                    |
+                     多件式套裝
+                      |
+                     大尺碼
+                      |
+                     小可愛/背心
+                      |
+                     帽T/大學T
+                      |
+                     泳裝/比基尼
+                      |
+                     休閒運動服飾
+                      |
+                     短褲
+                      |
+                     洋裝
+                      |
+                     裙子
+                      |
+                     上衣類
+                      |
+                    襯衫</p>
+                </div>
+                <div class="mid-content-card">
+                    <h5>女生衣著</h5>
+                    <p>T恤
+                        |
+                    長褲
+                        |
+                    內睡衣
+                        |
+                    外套
+                        |
+                    其他
+                     |
+                     針織/毛衣
+                    |
+                     多件式套裝
+                      |
+                     大尺碼
+                      |
+                     小可愛/背心
+                      |
+                     帽T/大學T
+                      |
+                     泳裝/比基尼
+                      |
+                     休閒運動服飾
+                      |
+                     短褲
+                      |
+                     洋裝
+                      |
+                     裙子
+                      |
+                     上衣類
+                      |
+                    襯衫</p>
+                </div>
+                <div class="mid-content-card">
+                    <h5>女生衣著</h5>
+                    <p>T恤
+                        |
+                    長褲
+                        |
+                    內睡衣
+                        |
+                    外套
+                        |
+                    其他
+                     |
+                     針織/毛衣
+                    |
+                     多件式套裝
+                      |
+                     大尺碼
+                      |
+                     小可愛/背心
+                      |
+                     帽T/大學T
+                      |
+                     泳裝/比基尼
+                      |
+                     休閒運動服飾
+                      |
+                     短褲
+                      |
+                     洋裝
+                      |
+                     裙子
+                      |
+                     上衣類
+                      |
+                    襯衫</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- bottom footer -->
+        <section class="bottom-footer mt-30">
+            <div class="bottom-footer-content">
+                <div class="bottom-footer-content-card">
+                    <p class="bottom-footer-content-title">客服中心</p>
+                    <p>幫助中心</p>
+                    <p>蝦皮商城</p>
+                    <p>付款方式</p>
+                    <p>蝦皮錢包 </p>
+                    <p>蝦幣</p>
+                    <p>運費補助</p>
+                    <p>退貨退款</p>
+                    <p>延長訂單撥款</p>
+                    <p>聯絡客服</p>
+                    <p>防詐騙宣導</p>
+                </div>
+                <div class="bottom-footer-content-card">
+                    <p class="bottom-footer-content-title">關於蝦皮</p>
+                    <p>關於蝦皮</p>
+                    <p>加入我們</p>
+                    <p>蝦皮條款</p>
+                    <p>隱私權政策 </p>
+                    <p>蝦皮商城</p>
+                    <p>賣家中心</p>
+                    <p>限時特賣</p>
+                    <p>聯絡媒體</p>
+                </div>
+                <div class="bottom-footer-content-card">
+                    <p class="bottom-footer-content-title">付款</p>
+                    <img src="./src/img/payment.jpg" alt="">
+                    <p class="bottom-footer-content-title">物流合作</p>
+                    <img src="./src/img/delivery.jpg" alt="">
+                    <p class="bottom-footer-content-title">蝦皮直送包裝減量標章</p>
+                    <img src="./src/img/lackpack.jpg" alt="">
+                </div>
+                <div class="bottom-footer-content-card">
+                    <p class="bottom-footer-content-title mr-10">關注我們</p>
+                    <p><i class="fa-brands fa-facebook mr-10"></i>Facebook</p>
+                    <p><i class="fa-brands fa-square-instagram mr-10"></i>Instagram</p>
+                    <p><i class="fa-brands fa-line mr-10"></i>Line</p>
+                    <p><i class="fa-brands fa-linkedin mr-10"></i>LinkedIn</p>
+                    <p><i class="fa-solid fa-lightbulb mr-10"></i>蝦品輯部落格</p>
+                </div>
+                <div class="bottom-footer-content-card">
+                    <p class="bottom-footer-content-title">下載蝦皮</p>
+                    <img src="./src/img/download.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="copyright">
+            <p>© 2022 Shopee. 版權所有。</p>
+            <p class="pr-10 ">國家和地區:
+                新加坡
+                印尼
+                台灣
+                泰國
+                馬來西亞
+                越南
+                菲律賓
+                巴西
+                墨西哥
+                哥倫比亞
+                智利
+                波蘭
+                阿根廷</p>
+        </section>
+    </footer>
+
+
+    <script src="./src/script/script.js"></script>
+    <script src="./src/script/jquery.min.js"></script>
+</body>
+</html>
